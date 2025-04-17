@@ -26,7 +26,7 @@ get ("/square_root/results") do
   erb(:square_root_results)
 end
 
-#Payment with Form
+#Payment
 get ("/payment/new") do
   erb(:new_payment)
 end
@@ -44,3 +44,9 @@ get("/payment/results") do
 
   erb(:payment_results)
 end
+
+#Random
+get ("/random/new") do
+  erb(:new_random)
+end
+
